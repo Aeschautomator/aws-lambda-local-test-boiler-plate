@@ -1,0 +1,19 @@
+{
+    "body": "(\"message\": \"hello world\")",
+    "resource": "/{proxy+}",
+    "httpMethod": "POST",
+    "isBase64Encoded": false,
+    "queryStringParameters": {
+        "foo": "bar"
+    },
+    "pathParameters": {
+        "proxy": "/path/to/resource"
+    },
+    "stagevariables": {
+        "baz": "qux"
+    },
+    "headers":{
+
+    }
+
+}
